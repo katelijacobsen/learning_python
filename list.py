@@ -42,3 +42,14 @@ print(toppings[::2])
 # Ønsker at gennemgå listen og gøre noget specifikt for hver element.
 for slags in toppings:
     print("Du kan få " + slags + " på din pizza")
+
+
+# Egne eksempeler
+
+topping1 = [1,2,3,4,5] * 3
+topping2 = [6,7,8,9,10]
+
+print(topping1 + topping2)
+
+print(2 in topping1)
+print(2 in topping2)
